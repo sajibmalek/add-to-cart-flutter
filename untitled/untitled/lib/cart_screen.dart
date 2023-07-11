@@ -143,7 +143,7 @@ class _cart_screenState extends State<cart_screen> {
                         }
                         else{
                           cart==1;
-                          _maxCart("You have to but minimum 1 item",Toast.LENGTH_SHORT);
+                          _maxCart("You have to buy minimum 1 item",Toast.LENGTH_SHORT);
                         }
                       }, child:Text("-",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.red.withOpacity(0.9)
