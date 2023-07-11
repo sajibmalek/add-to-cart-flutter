@@ -79,7 +79,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 #ScreenShot: 
 
-![Screenshot_2](https://github.com/sajibmalek/add-to-cart-flutter/assets/44054338/1840fd63-7773-46d2-9d30-88c87a57ad8f)
+![Screenshot_2](https://github.com/sajibmalek/add-to-cart-flutter/assets/44054338/5d92371c-030a-4e4d-8557-e08ccb820f7f)
 ![Screenshot_1](https://github.com/sajibmalek/add-to-cart-flutter/assets/44054338/a6637f6a-a8c4-41bc-803d-655dbcb930cf)
 
                   
