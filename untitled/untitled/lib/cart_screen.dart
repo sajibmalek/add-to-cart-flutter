@@ -5,11 +5,9 @@ import 'package:fluttertoast/fluttertoast.dart';
 class cart_screen extends StatefulWidget {
     cart_screen({super.key});
 
-
   @override
   State<cart_screen> createState() => _cart_screenState();
 }
-
 class _cart_screenState extends State<cart_screen> {
   int cart=1;
   int price=20;
@@ -145,7 +143,7 @@ class _cart_screenState extends State<cart_screen> {
                         }
                         else{
                           cart==1;
-                          _maxCart(context,"You have to but minimum 1 item",Toast.LENGTH_SHORT);
+                          _maxCart("You have to but minimum 1 item",Toast.LENGTH_SHORT);
                         }
                       }, child:Text("-",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.red.withOpacity(0.9)
@@ -157,7 +155,7 @@ class _cart_screenState extends State<cart_screen> {
                       ElevatedButton(onPressed: (){
                         if(cart==10){
                           cart=10;
-                          _maxCart(context,"You can buy only 10 items",Toast.LENGTH_SHORT);
+                          _maxCart("You can buy only 10 items",Toast.LENGTH_SHORT);
                         }
                         else{
                           cart +=1;
@@ -183,7 +181,7 @@ class _cart_screenState extends State<cart_screen> {
   }
 }
 
-Future<bool?> _maxCart(context,message,len){
+Future<bool?> _maxCart(message,len){
   return  Fluttertoast.showToast(
       msg: message,
       toastLength:len,
